@@ -38,8 +38,9 @@ python3 -m venv venv
 Create or edit `.env` in the root directory:
 
 ```env
-PORT=39556
+PORT=8080
 EPEY_URL=https://www.epey.com
+EPEY_TYPE=akilli-telefonlar
 ```
 
 ### 4. Run Server
