@@ -1,3 +1,4 @@
 .env
-model-info
-epey-examples
+model-info/
+epey-examples/
+venv/

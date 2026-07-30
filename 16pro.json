@@ -1,0 +1,161 @@
+{
+  "id": "apple-iphone-16-pro-1tb.html",
+  "epeyId": "960860",
+  "name": "Apple iPhone 16 Pro (1 TB)",
+  "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-16-pro-1tb.html",
+  "cover": "https://resim.epey.com/960860/z_apple-iphone-16-pro-1tb-2.jpg",
+  "userRating": "4.3 (3 vote) / 15 comment",
+  "specs": {
+    "Screen": {
+      "screenSize": "6.3 İnç",
+      "screenTechnology": "OLED",
+      "screenResolution": "1206x2622 (FHD+) Piksel",
+      "screenResolutionStandard": "FHD+",
+      "pixelDensity": "460 PPI",
+      "refreshRate": "120 Hz",
+      "aspectRatio": "19.5:9",
+      "screenArea": "96.31 cm²",
+      "screenFeatures": "Low-Temperature Polycrystalline Oxide (LTPO) Dolby Vision HDR Çizilmeye Dirençli Cam HDR10 Multi Touch DCI-P3 Renk Uzayı Oleophobic Coating Çerçevesiz Tasarım Sürekli Açık Ekran (Always-on Display) Ekran İçinde Ön Kamera HLG Super Retina XDR Display True Tone Ekran 2.000.000:1 Kontrast Oranı (Tipik) 1000 cd/m² (nit) Parlaklık 1600 cd/m² (nit) Parlaklık (HDR) 2000 cd/m² (nit) Parlaklık (Maks.)",
+      "screenDurability": "Corning Ceramic Shield Glass (Gen2)",
+      "colorCount": "16 Milyon",
+      "screenToBodyRatio": "90.04 %"
+    },
+    "General": {
+      "releaseYear": "2024",
+      "announcementDate": "2024, Eylül",
+      "series": "Apple iPhone 16",
+      "subSeries": "Apple iPhone 16 Pro"
+    },
+    "Battery": {
+      "batteryCapacity": "3582 mAh",
+      "videoPlayback": "22 Saat",
+      "videoPlaybackNote": "Çevrimiçi",
+      "musicPlayback": "85 Saat",
+      "chargingPort": "USB Type-C",
+      "batteryTechnology": "Lithium Ion (Li-Ion)",
+      "fastCharging": "Var",
+      "fastChargingPower": "25 W",
+      "fastChargingFeatures": "Hızlı Şarj (25W)",
+      "wirelessCharging": "Var",
+      "wirelessChargingFeatures": "Kablosuz Hızlı Şarj Kablosuz Hızlı Şarj (15W) MagSafe ile Kablosuz Hızlı Şarj (25W)",
+      "removableBattery": "Yok"
+    },
+    "Camera": {
+      "cameraResolution": "48 MP",
+      "opticalImageStabilization": "Var",
+      "oisFeature": "Sensor-shift OIS",
+      "cameraFeatures": "Focus Pixels Otomatik Odaklama Portre Modu (Bokeh) Phase Detect Auto-Focus (PDAF) Safir Kristal Objektif Kapağı HDR Yapay Zeka (AI) Sahne Algılama Live Photos Panorama RAW Kayıt Yapabilme Fiziki Denklanşör Tuşu Otomatik Odaklama Sesli komut Kırmızı Göz (Red-eye) Düzeltme Dahili QR Kod Okuyucu Makro (Macro) Çekim (2 cm) Seri Çekim (Burst) Modu Zamanlayıcı 1.22μm (2.44μm) Piksel",
+      "flash": "LED Adaptif",
+      "aperture": "F1.78",
+      "focalLength": "24 mm",
+      "losslessZoom": "2 x",
+      "videoRecordingResolution": "2160p (Ultra HD) 4K",
+      "videoFPS": "60 fps",
+      "videoRecordingFeatures": "Apple ProRes Dolby Vision Kayıt HDR HDR (4K) Dijital görüntü sabitleyici (EIS) Stereo Ses Kaydı Sürekli Otomatik Odaklama Time-lapse (Hyperlapse) Video Yakınlaştırma Yavaş Çekim Video Kayıt (Slow motion video)",
+      "videoRecordingOptions": "720p @ 30fps 1080p @ 25fps 1080p @ 30fps 1080P @ 30fps (ProRes) 1080p @ 60fps 2160p @ 120fps 2160p @ 120fps (ProRes) 2160p @ 24fps 2160p @ 25fps 2160p @ 30fps 2160p @ 60fps 2160p @ 60fps (ProRes)",
+      "slowMotionRecordingOptions": "1080p @ 120fps 1080p @ 240fps 2160p @ 120fps",
+      "secondRearCamera": "Var",
+      "secondRearCameraResolution": "12 MP",
+      "secondRearCameraAperture": "F2.8",
+      "secondRearCameraFeatures": "Optik Zoom (5x) Periscope Lens Telephoto Optik Görüntü Sabitleme (OIS) Otomatik Odaklama Phase Detect Auto-Focus (PDAF) 1.12μm Piksel 7 Elementli Lens 120mm",
+      "thirdRearCamera": "Var",
+      "thirdRearCameraResolution": "48 MP",
+      "thirdRearCameraAperture": "F2.2",
+      "thirdRearCameraFeatures": "Ekstra Geniş Açı Makro (Macro) Çekim Otomatik Odaklama Phase Detect Auto-Focus (PDAF) Ekstra Geniş Açı (120°) 1.4 µm Piksel 13mm",
+      "frontCameraResolution": "12 MP",
+      "frontCameraVideoResolution": "2160p (Ultra HD) 4K",
+      "frontCameraFPS": "60 fps",
+      "frontCameraAperture": "F1.9",
+      "frontCameraFeatures": "Otomatik Odaklama Portre Modu TrueDepth Camera HDR Sanal Flaş Video HDR Dolby Vision Yavaş Çekim (Slow Motion) Video Kayıt Time-lapse (Hyperlapse) Zamanlayıcı (self-timer) Animoji Dijital görüntü sabitleyici (EIS) Live Photos Pozlama Kontrolü Seri Çekim (Burst) Modu Video HDR Yüz Algılama 1080p @ 120fps Kayıt 2160p @ 60fps (ProRes)",
+      "dxomarkCameraV5": "157 Puan"
+    },
+    "BasicHardware": {
+      "chipset": "Apple A18 Pro",
+      "cpuFrequency": "4.04 GHz",
+      "cpuCores": "6 Çekirdek",
+      "mainProcessor": "2x 4.04 GHz",
+      "firstCoprocessor": "4x",
+      "processorArchitecture": "64-bit",
+      "graphicsProcessor": "6x Apple GPU",
+      "cpuManufacturingTechnology": "3 nm",
+      "antutuScoreV10": "1.853.700 Puan",
+      "geekbench6SingleCore": "3.615 Puan",
+      "geekbench6MultiCore": "9.275 Puan",
+      "ram": "8 GB",
+      "internalStorage": "1 TB",
+      "memoryCardSupport": "Yok",
+      "otherMemoryOptions": "128/256/512GB/1TB Depolama seçeneği var"
+    },
+    "Design": {
+      "length": "149.6 mm",
+      "width": "71.5 mm",
+      "thickness": "8.25 mm",
+      "weight": "199 Gram",
+      "colorOptions": "Siyah Beyaz Bakır Titanyum",
+      "bodyMaterialBack": "Cam",
+      "bodyMaterialFrame": "Titanyum"
+    },
+    "NetworkConnections": {
+      "network2G": "Var",
+      "network3G": "Var",
+      "network4G": "Var",
+      "network4GFeatures": "VoLTE (Voice over LTE) Desteği",
+      "network4_5GSupport": "Var",
+      "network5G": "Var"
+    },
+    "OperatingSystem": {
+      "operatingSystem": "iOS",
+      "operatingSystemVersion": "iOS 18",
+      "upgradableVersion": "iOS 26"
+    },
+    "WirelessConnections": {
+      "wifiChannels": "Wi-Fi 7 (802.11 a/b/g/n/ac/ax/be)",
+      "wifiFeatures": "Dual-Band (5GHz) VoWiFi (Wi-Fi Araması) Thread Networking Protocol 2X MIMO MIMO Wi-Fi Hotspot",
+      "nfc": "Var",
+      "bluetoothVersion": "5.3",
+      "infrared": "Yok",
+      "navigationFeatures": "GPS BDS GLONASS Galileo QZSS Dual-Frequency GPS NavIC"
+    },
+    "Multimedia": {
+      "radio": "Yok",
+      "speakerFeatures": "Stereo Çift Hoparlör",
+      "audioOutput": "USB Type-C"
+    },
+    "Features": {
+      "waterResistance": "Var",
+      "waterResistanceLevel": "IPX8",
+      "dustResistance": "Var",
+      "dustResistanceLevel": "IP6X",
+      "videoCallApp": "Var",
+      "sensors": "İvmeölçer Jiroskop Yakınlık Sensörü Pusula Ortam Işığı Sensörü Barometre LIDAR (Light Detection and Ranging) Tarayıcı Ortam Işığı Sensörü (Arka)",
+      "fingerprintScanner": "Yok",
+      "notificationLed": "Yok",
+      "sarValueHead": "1.24 W/kg",
+      "sarValueBody": "1.48 W/kg",
+      "servicesAndApps": "AirPlay Apple Pay Arttırılmış Gerçeklik (Augmented Reality-AR) Uyumu Dolby Atmos Ekran Yansıtma (Screen Mirroring) Face ID FaceTime Gürültü Önleyici 4 Mikrofon iCloud Drive Kısayol Tuşu (Kişiselleştirilebilir) MagSafe Siri Trafik Kazası Algılama Ultra Geniş Bant (UWB) Yüz Tanımlama Yüz Tanımlama (3D)",
+      "boxContents": "SIM Çıkartma İğnesi USB Kablosu (Type-C'den Type-C'ye)"
+    },
+    "OtherConnections": {
+      "usbVersion": "USB 3.2 Gen 2 (USB 3.1)",
+      "usbConnectionType": "USB Type-C",
+      "usbFeatures": "DisplayPort Kulaklık Ses Çıkışı",
+      "simCount": "Çift Hat",
+      "dualSimFeature": "Dual Standby",
+      "sim": "eSIM Nano-SIM (4FF)"
+    },
+    "EU Product Registration and Energy Label": {
+      "energyClass": "B",
+      "postChargeBatteryLife": "37 saat",
+      "dropResistanceClass": "C",
+      "repairabilityClass": "C",
+      "chargeCycleCountEU": "1000 Döngü",
+      "waterDustResistanceClass": "IP68"
+    },
+    "BasicInformation": {
+      "releaseYear": "2024",
+      "announcementDate": "2024, Eylül",
+      "series": "Apple iPhone 16",
+      "subSeries": "Apple iPhone 16 Pro"
+    }
+  }
+}

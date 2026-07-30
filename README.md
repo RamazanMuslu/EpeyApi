@@ -11,7 +11,7 @@ Epey Smartphone Info API
 ## 🚀 Features
 
 - **Search Endpoint**: Search smartphones on Epey.com using DuckDuckGo search bridge or local samples.
-- **Detailed Specifications**: Comprehensive technical specs categorized into EKRAN, BATARYA, KAMERA, TEMEL DONANIM, etc.
+- **Detailed Specifications**: Comprehensive technical specs categorized into SCREEN, BATTERY, CAMERA, BASIC HARDWARE, etc.
 - **Seller Offers & Pricing**: Real-time store options, seller titles, prices, and shipping information.
 - **High-Res Image Gallery**: Access product gallery images in maximum resolution.
 - **Offline / Sample Fallback**: Integrated support for testing against `epey-examples` local HTML files.
@@ -71,7 +71,8 @@ node dist/index.js
     "id": "apple-iphone-16-pro-1tb.html",
     "name": "Apple iPhone 16 Pro (1 TB)",
     "image": "https://resim.epey.com/960860/z_apple-iphone-16-pro-1tb-2.jpg",
-    "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-16-pro-1tb.html"
+    "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-16-pro-1tb.html",
+    "api": "http://localhost:8080/epey/info/apple-iphone-16-pro-1tb.html"
   }
 ]
 ```
@@ -91,35 +92,44 @@ node dist/index.js
   "name": "Apple iPhone 16 Pro (1 TB)",
   "url": "https://www.epey.com/akilli-telefonlar/apple-iphone-16-pro-1tb.html",
   "cover": "https://resim.epey.com/960860/z_apple-iphone-16-pro-1tb-2.jpg",
-  "userRating": "4.3 (3 oy) / 15 yorum",
-  "offers": [
-    {
-      "seller": "hızlasat",
-      "title": "İkinci El Apple Iphone 16 Pro 1Tb...",
-      "price": "89.331,10 TL",
-      "priceNumeric": 89331.1,
-      "shipping": "Ücretsiz Kargo",
-      "link": "https://www.epey.com/git/..."
-    }
-  ],
+  "userRating": "4.3 (3 vote) / 15 comment",
   "specs": {
-    "EKRAN": {
-      "Ekran Boyutu": "6.3 İnç",
-      "Ekran Teknolojisi": "OLED",
-      "Ekran Çözünürlüğü": "1206x2622 (FHD+) Piksel",
-      "Ekran Yenileme Hızı": "120 Hz"
+    "Screen": {
+      "screenSize": "6.3 İnç",
+      "screenTechnology": "OLED",
+      "screenResolution": "1206x2622 (FHD+) Piksel",
+      "screenResolutionStandard": "FHD+",
+      "pixelDensity": "460 PPI",
+      "refreshRate": "120 Hz",
+      "aspectRatio": "19.5:9",
+      "screenArea": "96.31 cm²",
+      "screenFeatures": "Low-Temperature Polycrystalline Oxide (LTPO) Dolby Vision HDR Çizilmeye Dirençli Cam HDR10 Multi Touch DCI-P3 Renk Uzayı Oleophobic Coating Çerçevesiz Tasarım Sürekli Açık Ekran (Always-on Display) Ekran İçinde Ön Kamera HLG Super Retina XDR Display True Tone Ekran 2.000.000:1 Kontrast Oranı (Tipik) 1000 cd/m² (nit) Parlaklık 1600 cd/m² (nit) Parlaklık (HDR) 2000 cd/m² (nit) Parlaklık (Maks.)",
+      "screenDurability": "Corning Ceramic Shield Glass (Gen2)",
+      "colorCount": "16 Milyon",
+      "screenToBodyRatio": "90.04 %"
     },
-    "BATARYA": {
-      "Batarya Kapasitesi (Tipik)": "3582 mAh",
-      "Hızlı Şarj": "Var",
-      "Kablosuz Şarj": "Var"
+    "General": {
+      "releaseYear": "2024",
+      "announcementDate": "2024, Eylül",
+      "series": "Apple iPhone 16",
+      "subSeries": "Apple iPhone 16 Pro"
     },
-    "TEMEL DONANIM": {
-      "Yonga Seti (Chipset)": "Apple A18 Pro",
-      "Bellek (RAM)": "8 GB",
-      "Dahili Depolama": "1 TB"
-    }
-  }
+    "Battery": {
+      "batteryCapacity": "3582 mAh",
+      "videoPlayback": "22 Saat",
+      "videoPlaybackNote": "Çevrimiçi",
+      "musicPlayback": "85 Saat",
+      "chargingPort": "USB Type-C",
+      "batteryTechnology": "Lithium Ion (Li-Ion)",
+      "fastCharging": "Var",
+      "fastChargingPower": "25 W",
+      "fastChargingFeatures": "Hızlı Şarj (25W)",
+      "wirelessCharging": "Var",
+      "wirelessChargingFeatures": "Kablosuz Hızlı Şarj Kablosuz Hızlı Şarj (15W) MagSafe ile Kablosuz Hızlı Şarj (25W)",
+      "removableBattery": "Yok"
+    },
+  },
+  ...
 }
 ```
 

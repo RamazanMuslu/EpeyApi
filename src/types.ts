@@ -3,6 +3,7 @@ export interface PhoneInfo {
   name: string;
   image: string;
   url?: string;
+  api?: string;
 }
 
 export interface Offer {

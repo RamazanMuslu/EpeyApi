@@ -4,7 +4,7 @@ import { execSync } from "child_process";
 import fs from "fs";
 import path from "path";
 import { PhoneInfo, PhoneDetail, Offer } from "../types";
-import { EPEY_URL, EPEY_TYPE } from "../../config";
+import { EPEY_URL, EPEY_TYPE, PORT } from "../../config";
 import { formatId } from "../helper";
 
 const turkishToEnglishKeyMap: Record<string, string> = {
@@ -360,7 +360,7 @@ export async function searchAndGetId(query: string): Promise<string | null> {
       encoding: "utf-8"
     }).trim();
 
-    if (output && output !== "BULUNAMADI") {
+    if (output && output !== "Not Found") {
       return output;
     }
 
@@ -465,7 +465,7 @@ export async function scrapeInfo(id: string): Promise<PhoneDetail | null> {
     if (bilgiler.length) {
       bilgiler.find("div#grup, div.grup, .grup").each((_i, grupEl) => {
         const head = $(grupEl).find(".baslik, h2, h3, h4").first();
-        const turkishCategory = head.length ? head.text().trim() : "GENEL";
+        const turkishCategory = head.length ? head.text().trim() : "General";
         const category = translateTurkishCategory(turkishCategory);
 
         const catSpecs: Record<string, string> = {};
@@ -576,7 +576,8 @@ export async function scrapeSearch(query: string): Promise<PhoneInfo[]> {
               id,
               name: rawName,
               image,
-              url: fullUrl
+              url: fullUrl,
+              api: `http://localhost:${PORT}/epey/info/${id}`
             });
           }
         }
